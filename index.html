@@ -10,6 +10,16 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="nav-bar">
+        <a href="#">
+            <img src="assets/menu-icon.svg" class="menu-icon" onclick="menuChanger()">
+        </a>
+
+        <a href="#">
+            <img src="assets/back-icon.svg" class="back-button">
+        </a>
+    </nav>
+
     <div class="screen">
 
         <div class="title">
@@ -21,7 +31,8 @@
         </div>
 
         <div class="search-area">
-            <input type="text" class="input-text">
+            <input type="text" value="" class="input-text">
+            <label>User</label>
             <input type="button" value="Search" class="input-button-search" onclick="BuscarDadosGitHub()">
         </div>
 

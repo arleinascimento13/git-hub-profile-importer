@@ -8,6 +8,7 @@ body
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
+    color: white;
 }
 
 .screen
@@ -20,7 +21,39 @@ body
     flex-direction: column;
 }
 
+.nav-bar
+{
+    width: 100vw;
+    position: absolute;
+}
 
+.back-button, .menu-icon
+{
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin: 3rem;
+    width: 3rem;
+    transition: .2s ease-in-out; 
+}
+
+.back-button
+{
+    float: left;
+}
+
+.menu-icon
+{
+    float: right;
+}
+
+.back-button:hover, .menu-icon:hover
+{
+    transform: scale(1.1);
+    background-color: #3a3a3a;
+}
+
+.menu-icon:hover
+    
 .title-text
 {
 
@@ -36,11 +69,47 @@ body
     margin: 1.3rem;
 }
 
+.search-area
+{
+    display: flex;
+}
+
 .input-button-search
 {
     width: 4rem;
     height: 2rem;
     margin-left: 0.5rem;
+}
+
+input.input-text
+{
+    height: 90%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+    background-color: #141414;
+    font-size: 17px;
+    color: white;
+    transition: .4s all; 
+}
+
+label
+{
+    position: absolute;
+    pointer-events: none;
+    transition: .2s all; 
+}
+
+input.input-text:focus
+{
+    outline: 0;
+    border-color: darkmagenta;
+}
+
+input.input-text:focus ~ label
+{
+    transform: translateY(-18px);
+    font-size: 12px;
 }
 
 .button-restart > img
