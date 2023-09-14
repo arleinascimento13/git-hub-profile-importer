@@ -34,10 +34,10 @@ Na barra de pesquisa, digite o nome de usuário do GitHub cujo perfil você dese
 
 Clique no botão "Buscar" para iniciar a pesquisa. Os detalhes do perfil do usuário serão exibidos abaixo da barra de pesquisa.
 
-Contribuição
+**Contribuição:**
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues, criar pull requests ou propor melhorias. Toda contribuição é bem-vinda!
 
-Conclusão
+**Conclusão:**
 Este projeto é uma demonstração simples de como usar a Fetch API para interagir com a API do GitHub e exibir informações de perfil de usuário. Espero que seja útil para você como exemplo ou ponto de partida para projetos relacionados à integração com APIs externas.
 
 Se tiver alguma dúvida ou precisar de assistência, sinta-se à vontade para entrar em contato!
