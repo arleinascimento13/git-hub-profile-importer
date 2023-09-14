@@ -42,4 +42,4 @@ Este projeto é uma demonstração simples de como usar a Fetch API para interag
 
 Se tiver alguma dúvida ou precisar de assistência, sinta-se à vontade para entrar em contato!
 
-Feito com ❤️ por [Seu Nome]
+Agradecido, Arlei Nascimento
